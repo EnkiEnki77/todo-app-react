@@ -1,0 +1,51 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./images/bg-desktop-light.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: rgb(231, 231, 231);
+}
+
+.taskListContainer {
+  width: calc(100% / 3);
+  margin-top: 80px;
+}
+
+.taskListContainer h1 {
+  letter-spacing: 0.5em;
+  color: white;
+}
+
+.taskInput {
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.taskInput input {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.prop {
+  /* width: 100%; */
+
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.prop p {
+  padding: 15px;
+}
